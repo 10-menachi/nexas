@@ -30,6 +30,7 @@ html{
     justify-content: space-between;
     z-index: 1000;
     box-shadow: 1px 10px 8px #888888;
+    background: #FFFFFF;
 }
 
 .logo h1{
@@ -147,4 +148,65 @@ html{
     top: 2rem;
     right: 2rem;
     font-size: 5rem;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+section:nth-child(even){
+    background-color: #F0F8FF;
+}
+
+.home .home-slider .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 9rem;
+}
+
+.home .home-slider .slide .content{
+    flex: 1 1 45rem;
+}
+
+.home .home-slider .slide .content{
+    flex: 1 1 45rem;
+}
+
+.home .home-slider .slide .content img{
+    width: 100%;
+}
+
+.home .home-slider .slide .content span{
+    color: #7900FF;
+    font-size: 2.5rem;
+}
+
+.home .home-slider .slide .content h3{
+    color: #323232;
+    font-size: 7rem;
+}
+
+.home .home-slider .slide .content p{
+    color: #888888;
+    font-size: 2.2rem;
+    padding: .5rem 0;
+    line-height: 1.5;
+}
+
+.the-btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    background: #323232;
+    border-radius: 5rem;
+    cursor: pointer;
+    padding: 3rem 8rem;
+}
+
+.the-btn:hover{
+    background: #7900FF;
+    letter-spacing: .5rem;
 }
