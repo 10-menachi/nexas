@@ -151,7 +151,23 @@ section{
 }
 
 section:nth-child(even){
-    background-color: #F0F8FF;
+    background: #888888;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    background: #323232;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+}
+
+.btn:hover{
+    background: #7900FF;
+    letter-spacing: .7rem;
 }
 
 .home .home-slider .slide{
@@ -162,15 +178,11 @@ section:nth-child(even){
     padding-top: 9rem;
 }
 
-.home .home-slider .slide .content{
+.home .home-slider .slide .content, .home .home-slider .slide .image{
     flex: 1 1 45rem;
 }
 
-.home .home-slider .slide .content{
-    flex: 1 1 45rem;
-}
-
-.home .home-slider .slide .content img{
+.home .home-slider .slide .image img{
     width: 100%;
 }
 
@@ -180,7 +192,7 @@ section:nth-child(even){
 }
 
 .home .home-slider .slide .content h3{
-    color: #323232;
+    color: #090910;
     font-size: 7rem;
 }
 
@@ -189,20 +201,4 @@ section:nth-child(even){
     font-size: 2.2rem;
     padding: .5rem 0;
     line-height: 1.5;
-}
-
-.the-btn{
-    margin-top: 1rem;
-    display: inline-block;
-    font-size: 1.7rem;
-    color: #FFFFFF;
-    background: #323232;
-    border-radius: 5rem;
-    cursor: pointer;
-    padding: 3rem 8rem;
-}
-
-.the-btn:hover{
-    background: #7900FF;
-    letter-spacing: .5rem;
 }
